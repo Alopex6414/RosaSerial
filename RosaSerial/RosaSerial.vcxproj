@@ -121,10 +121,14 @@
   <ItemGroup>
     <ClInclude Include="CRosaSerial.h" />
     <ClInclude Include="CThreadSafe.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CRosaSerial.cpp" />
     <ClCompile Include="CThreadSafe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RosaSerial.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
